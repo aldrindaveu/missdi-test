@@ -1,0 +1,395 @@
+@font-face {
+    font-family: Raleway;
+    src: url("fonts/Raleway.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Raleway Bold;
+    src: url("fonts/Raleway-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Henri Didot;
+    src: url("fonts/HenriDidot.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat Light;
+    src: url("fonts/Montserrat-Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat Regular;
+    src: url("fonts/Montserrat-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat SemiBold;
+    src: url("fonts/Montserrat-SemiBold.ttf") format("opentype");
+}
+
+.bg-black{
+	background-color: black;
+	color: white; 
+}
+
+.bg-white{
+	background-color: white;
+	color: black; 
+}
+
+.bg-grey{
+	background-color: #303030;
+	color: black; 
+}
+
+.login-box{
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.65);
+}
+
+.btn-black{
+	background-color: black;
+	color: white;
+}
+
+.userprofilecontent{
+	padding: 15px;
+}
+
+.widgetuserheader{
+	height:250px; 
+	background-color: #404040; 
+	color: white; 
+	height: 250px;
+}
+
+.widgetuserusername{
+	font-family: Segoe UI !important;
+	font-size: 50px !important;
+}
+
+.imgcircle{
+	width: 210px !important;
+}
+
+.widgetuserdesc{
+	font-size: 25px;
+}
+
+.boxboxwarning{
+	width: 100px !important;
+}
+
+.box-grey{
+	border-top-color: #404040;
+}
+
+.btndefault{
+	margin: 5px !important;
+	width: 130px !important;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Segoe UI;
+}
+
+.projDesc{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 300px;
+	height: 37px;
+	line-height: 37px;
+	word-wrap: break-word;
+	max-width: 400px;
+}
+
+#girlskids{
+	float: left;
+	width: 50%;
+	background: url(../dist/images/girls.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+	vertical-align: middle;
+	line-height: 42vh;
+}
+
+#boyskids{
+	float: right;
+	width: 50%;
+	background: url(../dist/images/boys.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+
+}
+.kids-content{
+	position:absolute; 
+	top:50%; 
+	height:10em; 
+	margin-top:-5em;
+	width:100%;
+
+}
+
+
+.buttonEme{
+	background-color: rgba(255,255,255,0.8);
+	padding: 10px;
+	font-family: Arial !important;
+}
+
+
+#kids-inner{
+	min-height:90vh;
+	position: relative;
+	text-align: center;
+	vertical-align: center;
+	width: 100%;
+}
+
+.choiceLink:hover, .choiceLink:focus{ 
+	color: #888888 !important;
+	-webkit-transition: all .2s;
+
+}
+
+.choicelink h2{
+	font-family: Arial !important;
+
+}
+
+.choiceLink{
+	color: black;
+}
+
+#boyskids{
+	float: right;
+	width: 50%;
+	background: url(../dist/images/boys.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+
+}
+.kids-content{
+	position:absolute; 
+	top:50%; 
+	height:10em; 
+	margin-top:-5em;
+	width:100%;
+
+}
+
+#girlsteens{
+	float: left;
+	width: 50%;
+	background: url(../dist/images/ladies.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+	vertical-align: middle;
+	line-height: 42vh;
+}
+
+#boysteens{
+	float: right;
+	width: 50%;
+	background: url(../dist/images/gents.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh
+}
+
+#girlsadults{
+	float: left;
+	width: 50%;
+	background: url(../dist/images/woman.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+	vertical-align: middle;
+	line-height: 42vh;
+}
+
+#boysadults{
+	float: right;
+	width: 50%;
+	background: url(../dist/images/man.jpg);
+	background-position:center center;
+	background-attachment:fixed;
+	height: 84vh;
+}
+
+.stepwizard-step p {
+    margin-top: 0px;
+    color:#666;
+}
+.stepwizard-row {
+    display: table-row;
+
+
+}
+.stepwizard {
+    display: table;
+    width: 93%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+    filter: alpha(opacity=100) !important;*/
+}
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity:1 !important;
+    color:#bbb;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.panel{
+	margin-right: 90px;
+	border-color: #000;
+}
+
+.panel>.panel-heading{
+	background-color: #000;
+}
+
+.panel-title{
+	color: white;
+}
+
+.btn-success {
+  color: white;
+  background-color: #000;
+  border-color: #000;
+ }
+
+ .btn-success:hover {
+ 	background-color: #333 !important;
+ 	border-color: #333 !important;
+ }
+
+ .btn-success:focus {
+ 	background-color: #555 !important;
+ }
+
+ .primary{
+ 	background-color: black !important;
+ 	color: white;
+ }
+
+ .primary:hover {
+ 	background-color: #333 !important;
+ 	color: white;
+ }
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Montserrat Regular";
+}
+
+.headerText{
+	font-family: "Raleway Bold";
+	font-size: 35px;
+}
+
+.talentGallery{
+	overflow-y: scroll;
+	height:380px;
+	display: block;
+}
+
+.talentItem{
+
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color: #f2f2f2; 
+	text-align: center;
+	width:220px;
+	padding:10px;
+	border-radius: 2px;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 87px -23px rgba(0,0,0,0.46);
+	-moz-box-shadow: 0px 0px 87px -23px rgba(0,0,0,0.46);
+	box-shadow: 0px 0px 87px -23px rgba(0,0,0,0.46);
+	height:360px;
+}
+
+.talentNameDiv{
+	width:200px;
+	position: absolute;
+	bottom: 2%;
+}
+
+.talentNameText{
+	font-family: "Montserrat Regular";
+	font-size: 20px;
+	text-align: center;
+}
+
+.flip-container {
+	perspective: 100%;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 220px;
+	height: 360px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
